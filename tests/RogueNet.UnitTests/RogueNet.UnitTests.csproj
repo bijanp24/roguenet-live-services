@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <IsPackable>false</IsPackable>
+    <!-- Suppress CA1707 for test method names with underscores -->
+    <NoWarn>$(NoWarn);CA1707</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,6 +11,7 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" />
     <PackageReference Include="xunit" />
     <PackageReference Include="xunit.runner.visualstudio" />
+    <PackageReference Include="FluentAssertions" />
   </ItemGroup>
 
   <ItemGroup>
