@@ -1,0 +1,1217 @@
+﻿
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          5/5/2026   9:51 AM                bin
+d-----          5/5/2026   2:52 PM                obj
+-a----          5/5/2026   2:52 PM           5820 PlayerEndpointsTests.cs
+-a----          5/5/2026   2:52 PM            931 RogueNet.IntegrationTests.csp
+                                                  roj
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          5/5/2026   9:51 AM                Debug
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          5/5/2026   3:21 PM                net10.0
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          5/5/2026  10:44 AM                cs
+d-----          5/5/2026  10:44 AM                de
+d-----          5/5/2026  10:44 AM                es
+d-----          5/5/2026  10:44 AM                fr
+d-----          5/5/2026  10:44 AM                it
+d-----          5/5/2026  10:44 AM                ja
+d-----          5/5/2026  10:44 AM                ko
+d-----          5/5/2026  10:44 AM                pl
+d-----          5/5/2026  10:44 AM                pt-BR
+d-----          5/5/2026  10:44 AM                refs
+d-----          5/5/2026  10:44 AM                ru
+d-----          5/5/2026  10:44 AM                runtimes
+d-----          5/5/2026  10:44 AM                tr
+d-----          5/5/2026  10:44 AM                zh-Hans
+d-----          5/5/2026  10:44 AM                zh-Hant
+-a----          5/5/2026   3:21 PM           2978 .msCoverageSourceRootsMapping
+                                                  _RogueNet.IntegrationTests
+-a----          5/5/2026  10:34 AM            328 appsettings.Development.json
+-a----          5/5/2026   2:52 PM            349 appsettings.json
+-a----          5/5/2026   3:21 PM           2978 CoverletSourceRootsMapping_Ro
+                                                  gueNet.IntegrationTests
+-a----          3/5/2026  11:11 PM         246784 Dapper.dll
+-a----         3/16/2026  10:54 AM         785920 FluentAssertions.dll
+-a----         1/29/2022   7:04 AM         355944 Humanizer.dll
+-a----         4/17/2026   1:10 PM          67344 Microsoft.AspNetCore.Mvc.Test
+                                                  ing.dll
+-a----         4/17/2026   1:10 PM         193840 Microsoft.AspNetCore.OpenApi.
+                                                  dll
+-a----         4/17/2026   1:09 PM          84744 Microsoft.AspNetCore.TestHost
+                                                  .dll
+-a----         1/13/2026  12:59 PM          16648 Microsoft.Bcl.Cryptography.dl
+                                                  l
+-a----        10/21/2025   3:15 AM         269608 Microsoft.Build.Framework.dll
+-a----        11/17/2025   3:20 PM        6839608 Microsoft.CodeAnalysis.CSharp
+                                                  .dll
+-a----        11/17/2025   3:20 PM         944904 Microsoft.CodeAnalysis.CSharp
+                                                  .Workspaces.dll
+-a----        11/17/2025   3:14 PM        3059000 Microsoft.CodeAnalysis.dll
+-a----        11/17/2025   3:23 PM          21256 Microsoft.CodeAnalysis.Extern
+                                                  alAccess.RazorCompiler.dll
+-a----        11/17/2025   3:18 PM        4230448 Microsoft.CodeAnalysis.Worksp
+                                                  aces.dll
+-a----        11/17/2025   3:25 PM         141576 Microsoft.CodeAnalysis.Worksp
+                                                  aces.MSBuild.dll
+-a----         4/24/2026   4:33 AM         643512 Microsoft.Data.SqlClient.dll
+-a----         3/17/2026   8:36 AM          23672 Microsoft.Data.SqlClient.Exte
+                                                  nsions.Abstractions.dll
+-a----         3/17/2026   8:11 AM          53880 Microsoft.Data.SqlClient.Inte
+                                                  rnal.Logging.dll
+-a----         4/17/2026  12:47 PM          34848 Microsoft.EntityFrameworkCore
+                                                  .Abstractions.dll
+-a----         4/17/2026  12:48 PM         631880 Microsoft.EntityFrameworkCore
+                                                  .Design.dll
+-a----         4/17/2026  12:48 PM        2827808 Microsoft.EntityFrameworkCore
+                                                  .dll
+-a----         4/17/2026  12:48 PM         241184 Microsoft.EntityFrameworkCore
+                                                  .InMemory.dll
+-a----         4/17/2026  12:48 PM        2194464 Microsoft.EntityFrameworkCore
+                                                  .Relational.dll
+-a----         4/17/2026  12:48 PM         642120 Microsoft.EntityFrameworkCore
+                                                  .SqlServer.dll
+-a----         4/17/2026  11:46 AM          85256 Microsoft.Extensions.Dependen
+                                                  cyModel.dll
+-a----         2/11/2026   7:32 PM          19528 Microsoft.IdentityModel.Abstr
+                                                  actions.dll
+-a----         2/11/2026   7:32 PM         173088 Microsoft.IdentityModel.JsonW
+                                                  ebTokens.dll
+-a----         2/11/2026   7:32 PM          38432 Microsoft.IdentityModel.Loggi
+                                                  ng.dll
+-a----         2/11/2026   7:32 PM          53280 Microsoft.IdentityModel.Proto
+                                                  cols.dll
+-a----         2/11/2026   7:32 PM         137248 Microsoft.IdentityModel.Proto
+                                                  cols.OpenIdConnect.dll
+-a----         2/11/2026   7:32 PM         391200 Microsoft.IdentityModel.Token
+                                                  s.dll
+-a----         7/10/2025   9:14 AM         474656 Microsoft.OpenApi.dll
+-a----         1/27/2022   9:19 AM          23976 Microsoft.SqlServer.Server.dl
+                                                  l
+-a----          6/2/2025   5:00 AM         137776 Microsoft.TestPlatform.Commun
+                                                  icationUtilities.dll
+-a----          6/2/2025   5:00 AM          98336 Microsoft.TestPlatform.CoreUt
+                                                  ilities.dll
+-a----          6/2/2025   5:00 AM         316960 Microsoft.TestPlatform.CrossP
+                                                  latEngine.dll
+-a----          6/2/2025   5:00 AM          51232 Microsoft.TestPlatform.Platfo
+                                                  rmAbstractions.dll
+-a----          6/2/2025   5:00 AM          67104 Microsoft.TestPlatform.Utilit
+                                                  ies.dll
+-a----         2/26/2025   8:16 AM          17464 Microsoft.VisualStudio.CodeCo
+                                                  verage.Shim.dll
+-a----          3/4/2025  11:02 AM         172072 Microsoft.VisualStudio.Soluti
+                                                  onPersistence.dll
+-a----          6/2/2025   5:00 AM         248352 Microsoft.VisualStudio.TestPl
+                                                  atform.Common.dll
+-a----          6/2/2025   5:00 AM         334392 Microsoft.VisualStudio.TestPl
+                                                  atform.ObjectModel.dll
+-a----          9/3/2024   2:57 PM         177664 Mono.TextTemplating.dll
+-a----          5/5/2026   3:21 PM            655 MvcTestingAppManifest.json
+-a----          3/7/2023  11:09 PM         712464 Newtonsoft.Json.dll
+-a----          5/5/2026   2:54 PM          48329 RogueNet.Api.deps.json
+-a----          5/5/2026   3:21 PM          40960 RogueNet.Api.dll
+-a----          5/5/2026   3:21 PM         162304 RogueNet.Api.exe
+-a----          5/5/2026   3:21 PM          38544 RogueNet.Api.pdb
+-a----          5/5/2026   2:54 PM            488 RogueNet.Api.runtimeconfig.js
+                                                  on
+-a----          5/5/2026  10:34 AM             51 RogueNet.Api.staticwebassets.
+                                                  endpoints.json
+-a----          5/5/2026   3:21 PM           2970 RogueNet.Api.xml
+-a----          5/5/2026   2:54 PM            853 RogueNet.Application.deps.jso
+                                                  n
+-a----          5/5/2026   2:54 PM           4096 RogueNet.Application.dll
+-a----          5/5/2026   2:54 PM          11552 RogueNet.Application.pdb
+-a----          5/5/2026   2:54 PM            145 RogueNet.Application.xml
+-a----          5/5/2026   2:54 PM            439 RogueNet.Domain.deps.json
+-a----          5/5/2026   2:54 PM          18944 RogueNet.Domain.dll
+-a----          5/5/2026   2:54 PM          17216 RogueNet.Domain.pdb
+-a----          5/5/2026   2:54 PM            140 RogueNet.Domain.xml
+-a----          5/5/2026   2:54 PM          50231 RogueNet.Infrastructure.deps.
+                                                  json
+-a----          5/5/2026   2:55 PM          72704 RogueNet.Infrastructure.dll
+-a----          5/5/2026   2:55 PM          20936 RogueNet.Infrastructure.pdb
+-a----          5/5/2026   2:55 PM            827 RogueNet.Infrastructure.xml
+-a----          5/5/2026   2:54 PM         218598 RogueNet.IntegrationTests.dep
+                                                  s.json
+-a----          5/5/2026   3:21 PM          38912 RogueNet.IntegrationTests.dll
+-a----          5/5/2026   3:21 PM          39024 RogueNet.IntegrationTests.pdb
+-a----          5/5/2026   2:54 PM            503 RogueNet.IntegrationTests.run
+                                                  timeconfig.json
+-a----          5/5/2026   3:21 PM           2983 RogueNet.IntegrationTests.xml
+-a----          5/4/2026   9:22 PM        1430016 Scalar.AspNetCore.dll
+-a----        11/27/2025  11:11 PM          17920 Serilog.AspNetCore.dll
+-a----         5/18/2025   2:22 PM         161792 Serilog.dll
+-a----        11/27/2025  10:35 PM          35840 Serilog.Extensions.Hosting.dl
+                                                  l
+-a----        11/21/2025   1:48 PM          28672 Serilog.Extensions.Logging.dl
+                                                  l
+-a----          6/9/2024   3:17 PM           9728 Serilog.Formatting.Compact.dl
+                                                  l
+-a----        11/26/2025   2:41 PM          70144 Serilog.Settings.Configuratio
+                                                  n.dll
+-a----         11/2/2025   1:00 PM          38400 Serilog.Sinks.Console.dll
+-a----         6/14/2024   1:12 AM           7168 Serilog.Sinks.Debug.dll
+-a----         4/27/2025   5:38 PM          36864 Serilog.Sinks.File.dll
+-a----        10/22/2021   4:47 PM         184944 System.CodeDom.dll
+-a----        10/28/2024   7:38 PM          20248 System.Composition.Attributed
+                                                  Model.dll
+-a----        10/28/2024   7:38 PM          54040 System.Composition.Convention
+                                                  .dll
+-a----        10/28/2024   7:38 PM          56072 System.Composition.Hosting.dl
+                                                  l
+-a----        10/28/2024   7:38 PM          27424 System.Composition.Runtime.dl
+                                                  l
+-a----        10/28/2024   7:38 PM          65816 System.Composition.TypedParts
+                                                  .dll
+-a----         1/13/2026  12:59 PM         443192 System.Configuration.Configur
+                                                  ationManager.dll
+-a----         2/11/2026   7:32 PM          92232 System.IdentityModel.Tokens.J
+                                                  wt.dll
+-a----         1/13/2026  12:59 PM          38672 System.Security.Cryptography.
+                                                  ProtectedData.dll
+-a----          6/2/2025   5:00 AM          49696 testhost.dll
+-a----          6/2/2025   5:00 AM         150576 testhost.exe
+-a----         8/25/2018  12:54 PM          21928 xunit.abstractions.dll
+-a----          1/8/2025   9:29 AM         187088 xunit.assert.dll
+-a----          1/8/2025   9:29 AM          70352 xunit.core.dll
+-a----          1/8/2025   9:30 AM         279760 xunit.execution.dotnet.dll
+-a----         8/15/2025   7:35 PM        1251840 xunit.runner.visualstudio.tes
+                                                  tadapter.dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\cs
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/17/2025   3:20 PM         444168 Microsoft.CodeAnalysis.CSharp
+                                                  .resources.dll
+-a----        11/17/2025   3:20 PM          17680 Microsoft.CodeAnalysis.CSharp
+                                                  .Workspaces.resources.dll
+-a----        11/17/2025   3:14 PM          40200 Microsoft.CodeAnalysis.resour
+                                                  ces.dll
+-a----        11/17/2025   3:25 PM          17680 Microsoft.CodeAnalysis.Worksp
+                                                  aces.MSBuild.resources.dll
+-a----        11/17/2025   3:18 PM          41224 Microsoft.CodeAnalysis.Worksp
+                                                  aces.resources.dll
+-a----         4/24/2026   4:39 AM         259992 Microsoft.Data.SqlClient.reso
+                                                  urces.dll
+-a----          6/2/2025   5:00 AM          16440 Microsoft.TestPlatform.Commun
+                                                  icationUtilities.resources.dl
+                                                  l
+-a----          6/2/2025   5:00 AM          16944 Microsoft.TestPlatform.CoreUt
+                                                  ilities.resources.dll
+-a----          6/2/2025   5:00 AM          21040 Microsoft.TestPlatform.CrossP
+                                                  latEngine.resources.dll
+-a----          6/2/2025   5:00 AM          20520 Microsoft.VisualStudio.TestPl
+                                                  atform.Common.resources.dll
+-a----          6/2/2025   5:00 AM          23624 Microsoft.VisualStudio.TestPl
+                                                  atform.ObjectModel.resources.
+                                                  dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\de
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/17/2025   3:20 PM         474376 Microsoft.CodeAnalysis.CSharp
+                                                  .resources.dll
+-a----        11/17/2025   3:20 PM          17672 Microsoft.CodeAnalysis.CSharp
+                                                  .Workspaces.resources.dll
+-a----        11/17/2025   3:14 PM          41736 Microsoft.CodeAnalysis.resour
+                                                  ces.dll
+-a----        11/17/2025   3:25 PM          17672 Microsoft.CodeAnalysis.Worksp
+                                                  aces.MSBuild.resources.dll
+-a----        11/17/2025   3:18 PM          42760 Microsoft.CodeAnalysis.Worksp
+                                                  aces.resources.dll
+-a----         4/24/2026   4:39 AM         270232 Microsoft.Data.SqlClient.reso
+                                                  urces.dll
+-a----          6/2/2025   5:00 AM          16928 Microsoft.TestPlatform.Commun
+                                                  icationUtilities.resources.dl
+                                                  l
+-a----          6/2/2025   5:00 AM          16952 Microsoft.TestPlatform.CoreUt
+                                                  ilities.resources.dll
+-a----          6/2/2025   5:00 AM          21048 Microsoft.TestPlatform.CrossP
+                                                  latEngine.resources.dll
+-a----          6/2/2025   5:00 AM          21064 Microsoft.VisualStudio.TestPl
+                                                  atform.Common.resources.dll
+-a----          6/2/2025   5:00 AM          24136 Microsoft.VisualStudio.TestPl
+                                                  atform.ObjectModel.resources.
+                                                  dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\es
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/17/2025   3:20 PM         463120 Microsoft.CodeAnalysis.CSharp
+                                                  .resources.dll
+-a----        11/17/2025   3:20 PM          17672 Microsoft.CodeAnalysis.CSharp
+                                                  .Workspaces.resources.dll
+-a----        11/17/2025   3:14 PM          41272 Microsoft.CodeAnalysis.resour
+                                                  ces.dll
+-a----        11/17/2025   3:25 PM          17672 Microsoft.CodeAnalysis.Worksp
+                                                  aces.MSBuild.resources.dll
+-a----        11/17/2025   3:18 PM          42248 Microsoft.CodeAnalysis.Worksp
+                                                  aces.resources.dll
+-a----         4/24/2026   4:40 AM         262040 Microsoft.Data.SqlClient.reso
+                                                  urces.dll
+-a----          6/2/2025   5:00 AM          16928 Microsoft.TestPlatform.Commun
+                                                  icationUtilities.resources.dl
+                                                  l
+-a----          6/2/2025   5:00 AM          16952 Microsoft.TestPlatform.CoreUt
+                                                  ilities.resources.dll
+-a----          6/2/2025   5:00 AM          21032 Microsoft.TestPlatform.CrossP
+                                                  latEngine.resources.dll
+-a----          6/2/2025   5:00 AM          21040 Microsoft.VisualStudio.TestPl
+                                                  atform.Common.resources.dll
+-a----          6/2/2025   5:00 AM          24120 Microsoft.VisualStudio.TestPl
+                                                  atform.ObjectModel.resources.
+                                                  dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\fr
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/17/2025   3:20 PM         475920 Microsoft.CodeAnalysis.CSharp
+                                                  .resources.dll
+-a----        11/17/2025   3:20 PM          17680 Microsoft.CodeAnalysis.CSharp
+                                                  .Workspaces.resources.dll
+-a----        11/17/2025   3:14 PM          41736 Microsoft.CodeAnalysis.resour
+                                                  ces.dll
+-a----        11/17/2025   3:25 PM          17672 Microsoft.CodeAnalysis.Worksp
+                                                  aces.MSBuild.resources.dll
+-a----        11/17/2025   3:18 PM          43320 Microsoft.CodeAnalysis.Worksp
+                                                  aces.resources.dll
+-a----         4/24/2026   4:39 AM         271296 Microsoft.Data.SqlClient.reso
+                                                  urces.dll
+-a----          6/2/2025   5:00 AM          16952 Microsoft.TestPlatform.Commun
+                                                  icationUtilities.resources.dl
+                                                  l
+-a----          6/2/2025   5:00 AM          16944 Microsoft.TestPlatform.CoreUt
+                                                  ilities.resources.dll
+-a----          6/2/2025   5:00 AM          21040 Microsoft.TestPlatform.CrossP
+                                                  latEngine.resources.dll
+-a----          6/2/2025   5:00 AM          21048 Microsoft.VisualStudio.TestPl
+                                                  atform.Common.resources.dll
+-a----          6/2/2025   5:00 AM          24096 Microsoft.VisualStudio.TestPl
+                                                  atform.ObjectModel.resources.
+                                                  dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\it
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/17/2025   3:20 PM         469768 Microsoft.CodeAnalysis.CSharp
+                                                  .resources.dll
+-a----        11/17/2025   3:20 PM          17672 Microsoft.CodeAnalysis.CSharp
+                                                  .Workspaces.resources.dll
+-a----        11/17/2025   3:14 PM          41784 Microsoft.CodeAnalysis.resour
+                                                  ces.dll
+-a----        11/17/2025   3:25 PM          17720 Microsoft.CodeAnalysis.Worksp
+                                                  aces.MSBuild.resources.dll
+-a----        11/17/2025   3:18 PM          42808 Microsoft.CodeAnalysis.Worksp
+                                                  aces.resources.dll
+-a----         4/24/2026   4:40 AM         263104 Microsoft.Data.SqlClient.reso
+                                                  urces.dll
+-a----          6/2/2025   5:00 AM          16928 Microsoft.TestPlatform.Commun
+                                                  icationUtilities.resources.dl
+                                                  l
+-a----          6/2/2025   5:00 AM          16928 Microsoft.TestPlatform.CoreUt
+                                                  ilities.resources.dll
+-a----          6/2/2025   5:00 AM          21048 Microsoft.TestPlatform.CrossP
+                                                  latEngine.resources.dll
+-a----          6/2/2025   5:00 AM          21040 Microsoft.VisualStudio.TestPl
+                                                  atform.Common.resources.dll
+-a----          6/2/2025   5:00 AM          24096 Microsoft.VisualStudio.TestPl
+                                                  atform.ObjectModel.resources.
+                                                  dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\ja
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/17/2025   3:20 PM         515848 Microsoft.CodeAnalysis.CSharp
+                                                  .resources.dll
+-a----        11/17/2025   3:20 PM          17672 Microsoft.CodeAnalysis.CSharp
+                                                  .Workspaces.resources.dll
+-a----        11/17/2025   3:14 PM          44304 Microsoft.CodeAnalysis.resour
+                                                  ces.dll
+-a----        11/17/2025   3:25 PM          17672 Microsoft.CodeAnalysis.Worksp
+                                                  aces.MSBuild.resources.dll
+-a----        11/17/2025   3:18 PM          45320 Microsoft.CodeAnalysis.Worksp
+                                                  aces.resources.dll
+-a----         4/24/2026   4:39 AM         292760 Microsoft.Data.SqlClient.reso
+                                                  urces.dll
+-a----          6/2/2025   5:00 AM          16928 Microsoft.TestPlatform.Commun
+                                                  icationUtilities.resources.dl
+                                                  l
+-a----          6/2/2025   5:00 AM          17440 Microsoft.TestPlatform.CoreUt
+                                                  ilities.resources.dll
+-a----          6/2/2025   5:00 AM          22088 Microsoft.TestPlatform.CrossP
+                                                  latEngine.resources.dll
+-a----          6/2/2025   5:00 AM          21552 Microsoft.VisualStudio.TestPl
+                                                  atform.Common.resources.dll
+-a----          6/2/2025   5:00 AM          24632 Microsoft.VisualStudio.TestPl
+                                                  atform.ObjectModel.resources.
+                                                  dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\ko
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/17/2025   3:20 PM         475920 Microsoft.CodeAnalysis.CSharp
+                                                  .resources.dll
+-a----        11/17/2025   3:20 PM          17680 Microsoft.CodeAnalysis.CSharp
+                                                  .Workspaces.resources.dll
+-a----        11/17/2025   3:14 PM          41744 Microsoft.CodeAnalysis.resour
+                                                  ces.dll
+-a----        11/17/2025   3:25 PM          17672 Microsoft.CodeAnalysis.Worksp
+                                                  aces.MSBuild.resources.dll
+-a----        11/17/2025   3:18 PM          43280 Microsoft.CodeAnalysis.Worksp
+                                                  aces.resources.dll
+-a----         4/24/2026   4:39 AM         270744 Microsoft.Data.SqlClient.reso
+                                                  urces.dll
+-a----          6/2/2025   5:00 AM          16944 Microsoft.TestPlatform.Commun
+                                                  icationUtilities.resources.dl
+                                                  l
+-a----          6/2/2025   5:00 AM          16936 Microsoft.TestPlatform.CoreUt
+                                                  ilities.resources.dll
+-a----          6/2/2025   5:00 AM          21560 Microsoft.TestPlatform.CrossP
+                                                  latEngine.resources.dll
+-a----          6/2/2025   5:00 AM          21048 Microsoft.VisualStudio.TestPl
+                                                  atform.Common.resources.dll
+-a----          6/2/2025   5:00 AM          24120 Microsoft.VisualStudio.TestPl
+                                                  atform.ObjectModel.resources.
+                                                  dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\pl
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/17/2025   3:20 PM         476432 Microsoft.CodeAnalysis.CSharp
+                                                  .resources.dll
+-a----        11/17/2025   3:20 PM          17712 Microsoft.CodeAnalysis.CSharp
+                                                  .Workspaces.resources.dll
+-a----        11/17/2025   3:14 PM          41736 Microsoft.CodeAnalysis.resour
+                                                  ces.dll
+-a----        11/17/2025   3:25 PM          17672 Microsoft.CodeAnalysis.Worksp
+                                                  aces.MSBuild.resources.dll
+-a----        11/17/2025   3:18 PM          42760 Microsoft.CodeAnalysis.Worksp
+                                                  aces.resources.dll
+-a----         4/24/2026   4:40 AM         269720 Microsoft.Data.SqlClient.reso
+                                                  urces.dll
+-a----          6/2/2025   5:00 AM          16928 Microsoft.TestPlatform.Commun
+                                                  icationUtilities.resources.dl
+                                                  l
+-a----          6/2/2025   5:00 AM          16936 Microsoft.TestPlatform.CoreUt
+                                                  ilities.resources.dll
+-a----          6/2/2025   5:00 AM          21536 Microsoft.TestPlatform.CrossP
+                                                  latEngine.resources.dll
+-a----          6/2/2025   5:00 AM          21048 Microsoft.VisualStudio.TestPl
+                                                  atform.Common.resources.dll
+-a----          6/2/2025   5:00 AM          24136 Microsoft.VisualStudio.TestPl
+                                                  atform.ObjectModel.resources.
+                                                  dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\pt-BR
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/17/2025   3:20 PM         456456 Microsoft.CodeAnalysis.CSharp
+                                                  .resources.dll
+-a----        11/17/2025   3:20 PM          17712 Microsoft.CodeAnalysis.CSharp
+                                                  .Workspaces.resources.dll
+-a----        11/17/2025   3:14 PM          40720 Microsoft.CodeAnalysis.resour
+                                                  ces.dll
+-a----        11/17/2025   3:25 PM          17680 Microsoft.CodeAnalysis.Worksp
+                                                  aces.MSBuild.resources.dll
+-a----        11/17/2025   3:18 PM          42296 Microsoft.CodeAnalysis.Worksp
+                                                  aces.resources.dll
+-a----         4/24/2026   4:39 AM         257944 Microsoft.Data.SqlClient.reso
+                                                  urces.dll
+-a----          6/2/2025   5:00 AM          16416 Microsoft.TestPlatform.Commun
+                                                  icationUtilities.resources.dl
+                                                  l
+-a----          6/2/2025   5:00 AM          16928 Microsoft.TestPlatform.CoreUt
+                                                  ilities.resources.dll
+-a----          6/2/2025   5:00 AM          21048 Microsoft.TestPlatform.CrossP
+                                                  latEngine.resources.dll
+-a----          6/2/2025   5:00 AM          21048 Microsoft.VisualStudio.TestPl
+                                                  atform.Common.resources.dll
+-a----          6/2/2025   5:00 AM          24120 Microsoft.VisualStudio.TestPl
+                                                  atform.ObjectModel.resources.
+                                                  dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\refs
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         4/17/2026   8:15 PM          34104 Microsoft.AspNetCore.Antiforg
+                                                  ery.dll
+-a----         4/17/2026   8:16 PM          28936 Microsoft.AspNetCore.Authenti
+                                                  cation.Abstractions.dll
+-a----         4/17/2026   8:15 PM          24336 Microsoft.AspNetCore.Authenti
+                                                  cation.BearerToken.dll
+-a----         4/17/2026   8:15 PM          29456 Microsoft.AspNetCore.Authenti
+                                                  cation.Cookies.dll
+-a----         4/17/2026   8:15 PM          31496 Microsoft.AspNetCore.Authenti
+                                                  cation.Core.dll
+-a----         4/17/2026   8:15 PM          40712 Microsoft.AspNetCore.Authenti
+                                                  cation.dll
+-a----         4/17/2026   8:15 PM          28976 Microsoft.AspNetCore.Authenti
+                                                  cation.OAuth.dll
+-a----         4/17/2026   8:15 PM          34616 Microsoft.AspNetCore.Authoriz
+                                                  ation.dll
+-a----         4/17/2026   8:15 PM          24336 Microsoft.AspNetCore.Authoriz
+                                                  ation.Policy.dll
+-a----         4/17/2026   8:15 PM          24376 Microsoft.AspNetCore.Componen
+                                                  ts.Authorization.dll
+-a----         4/17/2026   8:15 PM         165640 Microsoft.AspNetCore.Componen
+                                                  ts.dll
+-a----         4/17/2026   8:15 PM         122120 Microsoft.AspNetCore.Componen
+                                                  ts.Endpoints.dll
+-a----         4/17/2026   8:15 PM          28976 Microsoft.AspNetCore.Componen
+                                                  ts.Forms.dll
+-a----         4/17/2026   8:15 PM         143120 Microsoft.AspNetCore.Componen
+                                                  ts.Server.dll
+-a----         4/17/2026   8:15 PM          87344 Microsoft.AspNetCore.Componen
+                                                  ts.Web.dll
+-a----         4/17/2026   8:15 PM          35128 Microsoft.AspNetCore.Connecti
+                                                  ons.Abstractions.dll
+-a----         4/17/2026   8:15 PM          23304 Microsoft.AspNetCore.CookiePo
+                                                  licy.dll
+-a----         4/17/2026   8:15 PM          29448 Microsoft.AspNetCore.Cors.dll
+-a----         4/17/2026   8:15 PM          40760 Microsoft.AspNetCore.Cryptogr
+                                                  aphy.Internal.dll
+-a----         4/17/2026   8:15 PM          19720 Microsoft.AspNetCore.Cryptogr
+                                                  aphy.KeyDerivation.dll
+-a----         4/17/2026   8:15 PM          22840 Microsoft.AspNetCore.DataProt
+                                                  ection.Abstractions.dll
+-a----         4/17/2026   8:15 PM          87312 Microsoft.AspNetCore.DataProt
+                                                  ection.dll
+-a----         4/17/2026   8:15 PM          21768 Microsoft.AspNetCore.DataProt
+                                                  ection.Extensions.dll
+-a----         4/17/2026   8:15 PM          19720 Microsoft.AspNetCore.Diagnost
+                                                  ics.Abstractions.dll
+-a----         4/17/2026   8:15 PM          57608 Microsoft.AspNetCore.Diagnost
+                                                  ics.dll
+-a----         4/17/2026   8:15 PM          20232 Microsoft.AspNetCore.Diagnost
+                                                  ics.HealthChecks.dll
+-a----         4/17/2026   8:15 PM          34096 Microsoft.AspNetCore.dll
+-a----         4/17/2026   8:15 PM          22280 Microsoft.AspNetCore.HostFilt
+                                                  ering.dll
+-a----         4/17/2026   8:15 PM          23816 Microsoft.AspNetCore.Hosting.
+                                                  Abstractions.dll
+-a----         4/17/2026   8:15 PM          87816 Microsoft.AspNetCore.Hosting.
+                                                  dll
+-a----         4/17/2026   8:15 PM          18696 Microsoft.AspNetCore.Hosting.
+                                                  Server.Abstractions.dll
+-a----         4/17/2026   8:15 PM          20784 Microsoft.AspNetCore.Html.Abs
+                                                  tractions.dll
+-a----         4/17/2026   8:17 PM          87304 Microsoft.AspNetCore.Http.Abs
+                                                  tractions.dll
+-a----         4/17/2026   8:15 PM          20744 Microsoft.AspNetCore.Http.Con
+                                                  nections.Common.dll
+-a----         4/17/2026   8:15 PM          64304 Microsoft.AspNetCore.Http.Con
+                                                  nections.dll
+-a----         4/17/2026   8:15 PM          66832 Microsoft.AspNetCore.Http.dll
+-a----         4/17/2026   8:16 PM         124680 Microsoft.AspNetCore.Http.Ext
+                                                  ensions.dll
+-a----         4/17/2026   8:15 PM          37640 Microsoft.AspNetCore.Http.Fea
+                                                  tures.dll
+-a----         4/17/2026   8:15 PM          69896 Microsoft.AspNetCore.Http.Res
+                                                  ults.dll
+-a----         4/17/2026   8:15 PM          43784 Microsoft.AspNetCore.HttpLogg
+                                                  ing.dll
+-a----         4/17/2026   8:15 PM          28936 Microsoft.AspNetCore.HttpOver
+                                                  rides.dll
+-a----         4/17/2026   8:15 PM          21256 Microsoft.AspNetCore.HttpsPol
+                                                  icy.dll
+-a----         4/17/2026   8:15 PM         153904 Microsoft.AspNetCore.Identity
+                                                  .dll
+-a----         4/17/2026   8:15 PM          25360 Microsoft.AspNetCore.Localiza
+                                                  tion.dll
+-a----         4/17/2026   8:15 PM          17680 Microsoft.AspNetCore.Localiza
+                                                  tion.Routing.dll
+-a----         4/17/2026   8:15 PM          17160 Microsoft.AspNetCore.Metadata
+                                                  .dll
+-a----         4/17/2026   8:16 PM          86280 Microsoft.AspNetCore.Mvc.Abst
+                                                  ractions.dll
+-a----         4/17/2026   8:15 PM          32056 Microsoft.AspNetCore.Mvc.ApiE
+                                                  xplorer.dll
+-a----         4/17/2026   8:15 PM         354064 Microsoft.AspNetCore.Mvc.Core
+                                                  .dll
+-a----         4/17/2026   8:15 PM          22280 Microsoft.AspNetCore.Mvc.Cors
+                                                  .dll
+-a----         4/17/2026   8:15 PM          30984 Microsoft.AspNetCore.Mvc.Data
+                                                  Annotations.dll
+-a----         4/17/2026   8:15 PM          21304 Microsoft.AspNetCore.Mvc.dll
+-a----         4/17/2026   8:15 PM          17200 Microsoft.AspNetCore.Mvc.Form
+                                                  atters.Json.dll
+-a----         4/17/2026   8:15 PM          31032 Microsoft.AspNetCore.Mvc.Form
+                                                  atters.Xml.dll
+-a----         4/17/2026   8:15 PM          23816 Microsoft.AspNetCore.Mvc.Loca
+                                                  lization.dll
+-a----         4/17/2026   8:15 PM          62736 Microsoft.AspNetCore.Mvc.Razo
+                                                  r.dll
+-a----         4/17/2026   8:15 PM          97592 Microsoft.AspNetCore.Mvc.Razo
+                                                  rPages.dll
+-a----         4/17/2026   8:15 PM          62216 Microsoft.AspNetCore.Mvc.TagH
+                                                  elpers.dll
+-a----         4/17/2026   8:15 PM         128272 Microsoft.AspNetCore.Mvc.View
+                                                  Features.dll
+-a----         4/17/2026   8:15 PM          53048 Microsoft.AspNetCore.OutputCa
+                                                  ching.dll
+-a----         4/17/2026   8:15 PM          34568 Microsoft.AspNetCore.RateLimi
+                                                  ting.dll
+-a----         4/17/2026   8:15 PM          27448 Microsoft.AspNetCore.Razor.dl
+                                                  l
+-a----         4/17/2026   8:17 PM          27408 Microsoft.AspNetCore.Razor.Ru
+                                                  ntime.dll
+-a----         4/17/2026   8:15 PM          22280 Microsoft.AspNetCore.RequestD
+                                                  ecompression.dll
+-a----         4/17/2026   8:15 PM          17160 Microsoft.AspNetCore.Response
+                                                  Caching.Abstractions.dll
+-a----         4/17/2026   8:15 PM          38152 Microsoft.AspNetCore.Response
+                                                  Caching.dll
+-a----         4/17/2026   8:15 PM          28464 Microsoft.AspNetCore.Response
+                                                  Compression.dll
+-a----         4/17/2026   8:15 PM          46904 Microsoft.AspNetCore.Rewrite.
+                                                  dll
+-a----         4/17/2026   8:15 PM          26376 Microsoft.AspNetCore.Routing.
+                                                  Abstractions.dll
+-a----         4/17/2026   8:15 PM         140552 Microsoft.AspNetCore.Routing.
+                                                  dll
+-a----         4/17/2026   8:15 PM         305416 Microsoft.AspNetCore.Server.H
+                                                  ttpSys.dll
+-a----         4/17/2026   8:15 PM         127760 Microsoft.AspNetCore.Server.I
+                                                  IS.dll
+-a----         4/17/2026   8:15 PM          22800 Microsoft.AspNetCore.Server.I
+                                                  ISIntegration.dll
+-a----         4/17/2026   8:15 PM         423688 Microsoft.AspNetCore.Server.K
+                                                  estrel.Core.dll
+-a----         4/17/2026   8:15 PM          18736 Microsoft.AspNetCore.Server.K
+                                                  estrel.dll
+-a----         4/17/2026   8:16 PM          39224 Microsoft.AspNetCore.Server.K
+                                                  estrel.Transport.NamedPipes.d
+                                                  ll
+-a----         4/17/2026   8:15 PM          49416 Microsoft.AspNetCore.Server.K
+                                                  estrel.Transport.Quic.dll
+-a----         4/17/2026   8:15 PM          39688 Microsoft.AspNetCore.Server.K
+                                                  estrel.Transport.Sockets.dll
+-a----         4/17/2026   8:15 PM          26424 Microsoft.AspNetCore.Session.
+                                                  dll
+-a----         4/17/2026   8:15 PM          29448 Microsoft.AspNetCore.SignalR.
+                                                  Common.dll
+-a----         4/17/2026   8:15 PM          97032 Microsoft.AspNetCore.SignalR.
+                                                  Core.dll
+-a----         4/17/2026   8:15 PM          19208 Microsoft.AspNetCore.SignalR.
+                                                  dll
+-a----         4/17/2026   8:15 PM          21256 Microsoft.AspNetCore.SignalR.
+                                                  Protocols.Json.dll
+-a----         4/17/2026   8:15 PM          41232 Microsoft.AspNetCore.StaticAs
+                                                  sets.dll
+-a----         4/17/2026   8:15 PM          32008 Microsoft.AspNetCore.StaticFi
+                                                  les.dll
+-a----         4/17/2026   8:15 PM          27400 Microsoft.AspNetCore.WebSocke
+                                                  ts.dll
+-a----         4/17/2026   8:15 PM          44856 Microsoft.AspNetCore.WebUtili
+                                                  ties.dll
+-a----         4/17/2026   7:08 PM          18736 Microsoft.CSharp.dll
+-a----         4/17/2026   6:46 PM          26384 Microsoft.Extensions.Caching.
+                                                  Abstractions.dll
+-a----         4/17/2026   6:57 PM          19720 Microsoft.Extensions.Caching.
+                                                  Memory.dll
+-a----         4/17/2026   6:46 PM          19256 Microsoft.Extensions.Configur
+                                                  ation.Abstractions.dll
+-a----         4/17/2026   6:55 PM          17672 Microsoft.Extensions.Configur
+                                                  ation.Binder.dll
+-a----         4/17/2026   6:55 PM          17160 Microsoft.Extensions.Configur
+                                                  ation.CommandLine.dll
+-a----         4/17/2026   6:48 PM          21816 Microsoft.Extensions.Configur
+                                                  ation.dll
+-a----         4/17/2026   6:54 PM          16656 Microsoft.Extensions.Configur
+                                                  ation.EnvironmentVariables.dl
+                                                  l
+-a----         4/17/2026   6:55 PM          18184 Microsoft.Extensions.Configur
+                                                  ation.FileExtensions.dll
+-a----         4/17/2026   6:57 PM          17208 Microsoft.Extensions.Configur
+                                                  ation.Ini.dll
+-a----         4/17/2026   6:56 PM          17160 Microsoft.Extensions.Configur
+                                                  ation.Json.dll
+-a----         4/17/2026   8:15 PM          19216 Microsoft.Extensions.Configur
+                                                  ation.KeyPerFile.dll
+-a----         4/17/2026   6:57 PM          16688 Microsoft.Extensions.Configur
+                                                  ation.UserSecrets.dll
+-a----         4/17/2026   6:56 PM          18736 Microsoft.Extensions.Configur
+                                                  ation.Xml.dll
+-a----         4/17/2026   6:46 PM          30008 Microsoft.Extensions.Dependen
+                                                  cyInjection.Abstractions.dll
+-a----         4/17/2026   6:55 PM          17160 Microsoft.Extensions.Dependen
+                                                  cyInjection.dll
+-a----         4/17/2026   6:56 PM          20232 Microsoft.Extensions.Diagnost
+                                                  ics.Abstractions.dll
+-a----         4/17/2026   6:57 PM          16656 Microsoft.Extensions.Diagnost
+                                                  ics.dll
+-a----         4/17/2026   8:15 PM          21768 Microsoft.Extensions.Diagnost
+                                                  ics.HealthChecks.Abstractions
+                                                  .dll
+-a----         4/17/2026   8:15 PM          34064 Microsoft.Extensions.Diagnost
+                                                  ics.HealthChecks.dll
+-a----         4/17/2026   8:15 PM          22832 Microsoft.Extensions.Features
+                                                  .dll
+-a----         4/17/2026   6:46 PM          17672 Microsoft.Extensions.FileProv
+                                                  iders.Abstractions.dll
+-a----         4/17/2026   6:48 PM          16648 Microsoft.Extensions.FileProv
+                                                  iders.Composite.dll
+-a----         4/17/2026   8:15 PM          22800 Microsoft.Extensions.FileProv
+                                                  iders.Embedded.dll
+-a----         4/17/2026   6:55 PM          19256 Microsoft.Extensions.FileProv
+                                                  iders.Physical.dll
+-a----         4/17/2026   6:46 PM          23344 Microsoft.Extensions.FileSyst
+                                                  emGlobbing.dll
+-a----         4/17/2026   6:57 PM          22280 Microsoft.Extensions.Hosting.
+                                                  Abstractions.dll
+-a----         4/17/2026   6:57 PM          22792 Microsoft.Extensions.Hosting.
+                                                  dll
+-a----         4/17/2026   6:57 PM          23816 Microsoft.Extensions.Http.dll
+-a----         4/17/2026   8:15 PM          92936 Microsoft.Extensions.Identity
+                                                  .Core.dll
+-a----         4/17/2026   8:15 PM          35592 Microsoft.Extensions.Identity
+                                                  .Stores.dll
+-a----         4/17/2026   8:15 PM          19720 Microsoft.Extensions.Localiza
+                                                  tion.Abstractions.dll
+-a----         4/17/2026   8:15 PM          24328 Microsoft.Extensions.Localiza
+                                                  tion.dll
+-a----         4/17/2026   6:55 PM          26888 Microsoft.Extensions.Logging.
+                                                  Abstractions.dll
+-a----         4/17/2026   6:57 PM          17672 Microsoft.Extensions.Logging.
+                                                  Configuration.dll
+-a----         4/17/2026   6:57 PM          23352 Microsoft.Extensions.Logging.
+                                                  Console.dll
+-a----         4/17/2026   6:56 PM          16648 Microsoft.Extensions.Logging.
+                                                  Debug.dll
+-a----         4/17/2026   6:56 PM          20280 Microsoft.Extensions.Logging.
+                                                  dll
+-a----         4/17/2026   6:56 PM          17672 Microsoft.Extensions.Logging.
+                                                  EventLog.dll
+-a----         4/17/2026   6:56 PM          17208 Microsoft.Extensions.Logging.
+                                                  EventSource.dll
+-a----         4/17/2026   6:56 PM          17200 Microsoft.Extensions.Logging.
+                                                  TraceSource.dll
+-a----         4/17/2026   8:15 PM          20752 Microsoft.Extensions.ObjectPo
+                                                  ol.dll
+-a----         4/17/2026   6:56 PM          18224 Microsoft.Extensions.Options.
+                                                  ConfigurationExtensions.dll
+-a----         4/17/2026   6:57 PM          17160 Microsoft.Extensions.Options.
+                                                  DataAnnotations.dll
+-a----         4/17/2026   6:55 PM          31496 Microsoft.Extensions.Options.
+                                                  dll
+-a----         4/17/2026   6:46 PM          24376 Microsoft.Extensions.Primitiv
+                                                  es.dll
+-a----         4/17/2026   8:15 PM          29960 Microsoft.Extensions.Validati
+                                                  on.dll
+-a----         4/17/2026   8:15 PM          20232 Microsoft.Extensions.WebEncod
+                                                  ers.dll
+-a----         4/17/2026   8:15 PM          42288 Microsoft.JSInterop.dll
+-a----         4/17/2026   8:15 PM          36624 Microsoft.Net.Http.Headers.dl
+                                                  l
+-a----         4/17/2026   7:05 PM          59704 Microsoft.VisualBasic.Core.dl
+                                                  l
+-a----         4/17/2026   7:02 PM          17672 Microsoft.VisualBasic.dll
+-a----         4/17/2026   7:05 PM          16648 Microsoft.Win32.Primitives.dl
+                                                  l
+-a----         4/17/2026   7:05 PM          21768 Microsoft.Win32.Registry.dll
+-a----         4/17/2026   7:04 PM          56072 mscorlib.dll
+-a----         4/17/2026   7:03 PM         101128 netstandard.dll
+-a----         4/17/2026   7:04 PM          15632 System.AppContext.dll
+-a----         4/17/2026   7:03 PM          15624 System.Buffers.dll
+-a----         4/17/2026   7:04 PM          27952 System.Collections.Concurrent
+                                                  .dll
+-a----         4/17/2026   7:05 PM          55608 System.Collections.dll
+-a----         4/17/2026   7:04 PM          75536 System.Collections.Immutable.
+                                                  dll
+-a----         4/17/2026   7:05 PM          23304 System.Collections.NonGeneric
+                                                  .dll
+-a----         4/17/2026   7:05 PM          26376 System.Collections.Specialize
+                                                  d.dll
+-a----         4/17/2026   7:05 PM          32056 System.ComponentModel.Annotat
+                                                  ions.dll
+-a----         4/17/2026   7:12 PM          17200 System.ComponentModel.DataAnn
+                                                  otations.dll
+-a----         4/17/2026   7:05 PM          16176 System.ComponentModel.dll
+-a----         4/17/2026   7:04 PM          19768 System.ComponentModel.EventBa
+                                                  sedAsync.dll
+-a----         4/17/2026   7:05 PM          26416 System.ComponentModel.Primiti
+                                                  ves.dll
+-a----         4/17/2026   7:05 PM         105272 System.ComponentModel.TypeCon
+                                                  verter.dll
+-a----         4/17/2026   7:02 PM          19720 System.Configuration.dll
+-a----         4/17/2026   7:05 PM          26896 System.Console.dll
+-a----         4/17/2026   7:03 PM          23864 System.Core.dll
+-a----         4/17/2026   7:05 PM         154936 System.Data.Common.dll
+-a----         4/17/2026   7:03 PM          16136 System.Data.DataSetExtensions
+                                                  .dll
+-a----         4/17/2026   7:07 PM          24328 System.Data.dll
+-a----         4/17/2026   7:05 PM          20272 System.Diagnostics.Contracts.
+                                                  dll
+-a----         4/17/2026   7:03 PM          16136 System.Diagnostics.Debug.dll
+-a----         4/17/2026   7:04 PM          43832 System.Diagnostics.Diagnostic
+                                                  Source.dll
+-a----         4/17/2026   6:46 PM          36624 System.Diagnostics.EventLog.d
+                                                  ll
+-a----         4/17/2026   7:08 PM          17160 System.Diagnostics.FileVersio
+                                                  nInfo.dll
+-a----         4/17/2026   7:04 PM          32048 System.Diagnostics.Process.dl
+                                                  l
+-a----         4/17/2026   7:05 PM          23344 System.Diagnostics.StackTrace
+                                                  .dll
+-a----         4/17/2026   7:11 PM          18184 System.Diagnostics.TextWriter
+                                                  TraceListener.dll
+-a----         4/17/2026   7:03 PM          15664 System.Diagnostics.Tools.dll
+-a----         4/17/2026   7:05 PM          28424 System.Diagnostics.TraceSourc
+                                                  e.dll
+-a----         4/17/2026   7:05 PM          29496 System.Diagnostics.Tracing.dl
+                                                  l
+-a----         4/17/2026   7:05 PM          49928 System.dll
+-a----         4/17/2026   7:03 PM          20784 System.Drawing.dll
+-a----         4/17/2026   7:07 PM          36104 System.Drawing.Primitives.dll
+-a----         4/17/2026   7:03 PM          16648 System.Dynamic.Runtime.dll
+-a----         4/17/2026   7:07 PM          26888 System.Formats.Asn1.dll
+-a----         4/17/2026   6:46 PM          21768 System.Formats.Cbor.dll
+-a----         4/17/2026   7:05 PM          20744 System.Formats.Tar.dll
+-a----         4/17/2026   7:03 PM          16176 System.Globalization.Calendar
+                                                  s.dll
+-a----         4/17/2026   7:03 PM          16136 System.Globalization.dll
+-a----         4/17/2026   7:03 PM          15624 System.Globalization.Extensio
+                                                  ns.dll
+-a----         4/17/2026   7:05 PM          18696 System.IO.Compression.Brotli.
+                                                  dll
+-a----         4/17/2026   7:05 PM          22280 System.IO.Compression.dll
+-a----         4/17/2026   7:03 PM          15624 System.IO.Compression.FileSys
+                                                  tem.dll
+-a----         4/17/2026   7:05 PM          19208 System.IO.Compression.ZipFile
+                                                  .dll
+-a----         4/17/2026   7:03 PM          16136 System.IO.dll
+-a----         4/17/2026   7:05 PM          20744 System.IO.FileSystem.AccessCo
+                                                  ntrol.dll
+-a----         4/17/2026   7:03 PM          16136 System.IO.FileSystem.dll
+-a----         4/17/2026   7:08 PM          17672 System.IO.FileSystem.DriveInf
+                                                  o.dll
+-a----         4/17/2026   7:03 PM          15632 System.IO.FileSystem.Primitiv
+                                                  es.dll
+-a----         4/17/2026   7:04 PM          21256 System.IO.FileSystem.Watcher.
+                                                  dll
+-a----         4/17/2026   7:05 PM          22800 System.IO.IsolatedStorage.dll
+-a----         4/17/2026   7:05 PM          18696 System.IO.MemoryMappedFiles.d
+                                                  ll
+-a----         4/17/2026   7:05 PM          20744 System.IO.Pipelines.dll
+-a----         4/17/2026   7:05 PM          18704 System.IO.Pipes.AccessControl
+                                                  .dll
+-a----         4/17/2026   7:05 PM          22792 System.IO.Pipes.dll
+-a----         4/17/2026   7:03 PM          16136 System.IO.UnmanagedMemoryStre
+                                                  am.dll
+-a----         4/17/2026   7:04 PM          36616 System.Linq.AsyncEnumerable.d
+                                                  ll
+-a----         4/17/2026   7:05 PM          34056 System.Linq.dll
+-a----         4/17/2026   7:05 PM          63752 System.Linq.Expressions.dll
+-a----         4/17/2026   7:05 PM          31496 System.Linq.Parallel.dll
+-a----         4/17/2026   7:05 PM          32520 System.Linq.Queryable.dll
+-a----         4/17/2026   7:04 PM          57608 System.Memory.dll
+-a----         4/17/2026   7:02 PM          17712 System.Net.dll
+-a----         4/17/2026   7:05 PM          60680 System.Net.Http.dll
+-a----         4/17/2026   7:04 PM          23816 System.Net.Http.Json.dll
+-a----         4/17/2026   7:05 PM          25864 System.Net.HttpListener.dll
+-a----         4/17/2026   7:05 PM          32520 System.Net.Mail.dll
+-a----         4/17/2026   7:05 PM          18232 System.Net.NameResolution.dll
+-a----         4/17/2026   7:08 PM          34096 System.Net.NetworkInformation
+                                                  .dll
+-a----         4/17/2026   7:05 PM          20744 System.Net.Ping.dll
+-a----         4/17/2026   7:05 PM          37680 System.Net.Primitives.dll
+-a----         4/17/2026   7:05 PM          24376 System.Net.Quic.dll
+-a----         4/17/2026   7:05 PM          41736 System.Net.Requests.dll
+-a----         4/17/2026   7:05 PM          54064 System.Net.Security.dll
+-a----         4/17/2026   7:04 PM          17672 System.Net.ServerSentEvents.d
+                                                  ll
+-a----         4/17/2026   7:03 PM          15624 System.Net.ServicePoint.dll
+-a----         4/17/2026   7:05 PM          47888 System.Net.Sockets.dll
+-a----         4/17/2026   7:05 PM          28424 System.Net.WebClient.dll
+-a----         4/17/2026   7:05 PM          19720 System.Net.WebHeaderCollectio
+                                                  n.dll
+-a----         4/17/2026   7:05 PM          18744 System.Net.WebProxy.dll
+-a----         4/17/2026   7:05 PM          19720 System.Net.WebSockets.Client.
+                                                  dll
+-a----         4/17/2026   7:05 PM          24368 System.Net.WebSockets.dll
+-a----         4/17/2026   7:02 PM          15624 System.Numerics.dll
+-a----         4/17/2026   7:04 PM          58680 System.Numerics.Vectors.dll
+-a----         4/17/2026   7:05 PM          23856 System.ObjectModel.dll
+-a----         4/17/2026   7:05 PM          16176 System.Reflection.DispatchPro
+                                                  xy.dll
+-a----         4/17/2026   7:02 PM          16648 System.Reflection.dll
+-a----         4/17/2026   7:05 PM          44856 System.Reflection.Emit.dll
+-a----         4/17/2026   7:05 PM          21296 System.Reflection.Emit.ILGene
+                                                  ration.dll
+-a----         4/17/2026   7:05 PM          19720 System.Reflection.Emit.Lightw
+                                                  eight.dll
+-a----         4/17/2026   7:03 PM          15672 System.Reflection.Extensions.
+                                                  dll
+-a----         4/17/2026   7:08 PM         122672 System.Reflection.Metadata.dl
+                                                  l
+-a----         4/17/2026   7:06 PM          22280 System.Reflection.Primitives.
+                                                  dll
+-a----         4/17/2026   7:05 PM          20232 System.Reflection.TypeExtensi
+                                                  ons.dll
+-a----         4/17/2026   7:04 PM          15624 System.Resources.Reader.dll
+-a----         4/17/2026   7:02 PM          16184 System.Resources.ResourceMana
+                                                  ger.dll
+-a----         4/17/2026   7:07 PM          16648 System.Resources.Writer.dll
+-a----         4/17/2026   7:02 PM          15624 System.Runtime.CompilerServic
+                                                  es.Unsafe.dll
+-a----         4/17/2026   7:05 PM          17672 System.Runtime.CompilerServic
+                                                  es.VisualC.dll
+-a----         4/17/2026   7:05 PM         862984 System.Runtime.dll
+-a----         4/17/2026   7:02 PM          18184 System.Runtime.Extensions.dll
+-a----         4/17/2026   7:02 PM          16136 System.Runtime.Handles.dll
+-a----         4/17/2026   7:04 PM         101688 System.Runtime.InteropService
+                                                  s.dll
+-a----         4/17/2026   7:05 PM          26416 System.Runtime.InteropService
+                                                  s.JavaScript.dll
+-a----         4/17/2026   7:02 PM          15624 System.Runtime.InteropService
+                                                  s.RuntimeInformation.dll
+-a----         4/17/2026   7:04 PM         466696 System.Runtime.Intrinsics.dll
+-a----         4/17/2026   7:05 PM          20280 System.Runtime.Loader.dll
+-a----         4/17/2026   7:08 PM          36624 System.Runtime.Numerics.dll
+-a----         4/17/2026   7:03 PM          17672 System.Runtime.Serialization.
+                                                  dll
+-a----         4/17/2026   7:06 PM          23864 System.Runtime.Serialization.
+                                                  Formatters.dll
+-a----         4/17/2026   7:08 PM          21256 System.Runtime.Serialization.
+                                                  Json.dll
+-a----         4/17/2026   7:05 PM          20232 System.Runtime.Serialization.
+                                                  Primitives.dll
+-a----         4/17/2026   7:08 PM          40208 System.Runtime.Serialization.
+                                                  Xml.dll
+-a----         4/17/2026   7:05 PM          37640 System.Security.AccessControl
+                                                  .dll
+-a----         4/17/2026   7:05 PM          33032 System.Security.Claims.dll
+-a----         4/17/2026   7:03 PM          17680 System.Security.Cryptography.
+                                                  Algorithms.dll
+-a----         4/17/2026   7:03 PM          16648 System.Security.Cryptography.
+                                                  Cng.dll
+-a----         4/17/2026   7:03 PM          16696 System.Security.Cryptography.
+                                                  Csp.dll
+-a----         4/17/2026   7:05 PM         163592 System.Security.Cryptography.
+                                                  dll
+-a----         4/17/2026   7:03 PM          16136 System.Security.Cryptography.
+                                                  Encoding.dll
+-a----         4/17/2026   7:03 PM          16144 System.Security.Cryptography.
+                                                  OpenSsl.dll
+-a----         4/17/2026   7:03 PM          16176 System.Security.Cryptography.
+                                                  Primitives.dll
+-a----         4/17/2026   7:03 PM          17160 System.Security.Cryptography.
+                                                  X509Certificates.dll
+-a----         4/17/2026   6:47 PM          40200 System.Security.Cryptography.
+                                                  Xml.dll
+-a----         4/17/2026   7:03 PM          18744 System.Security.dll
+-a----         4/17/2026   7:03 PM          15664 System.Security.Principal.dll
+-a----         4/17/2026   7:05 PM          27400 System.Security.Principal.Win
+                                                  dows.dll
+-a----         4/17/2026   7:03 PM          16184 System.Security.SecureString.
+                                                  dll
+-a----         4/17/2026   7:12 PM          17160 System.ServiceModel.Web.dll
+-a----         4/17/2026   7:03 PM          16184 System.ServiceProcess.dll
+-a----         4/17/2026   7:05 PM          16144 System.Text.Encoding.CodePage
+                                                  s.dll
+-a----         4/17/2026   7:03 PM          16136 System.Text.Encoding.dll
+-a----         4/17/2026   7:05 PM          21256 System.Text.Encoding.Extensio
+                                                  ns.dll
+-a----         4/17/2026   7:04 PM          26888 System.Text.Encodings.Web.dll
+-a----         4/17/2026   7:05 PM          82704 System.Text.Json.dll
+-a----         4/17/2026   7:05 PM          37128 System.Text.RegularExpression
+                                                  s.dll
+-a----         4/17/2026   7:05 PM          21256 System.Threading.AccessContro
+                                                  l.dll
+-a----         4/17/2026   7:05 PM          19760 System.Threading.Channels.dll
+-a----         4/17/2026   7:05 PM          34056 System.Threading.dll
+-a----         4/17/2026   7:05 PM          19248 System.Threading.Overlapped.d
+                                                  ll
+-a----         4/17/2026   6:46 PM          23312 System.Threading.RateLimiting
+                                                  .dll
+-a----         4/17/2026   7:04 PM          32520 System.Threading.Tasks.Datafl
+                                                  ow.dll
+-a----         4/17/2026   7:03 PM          17168 System.Threading.Tasks.dll
+-a----         4/17/2026   7:04 PM          16136 System.Threading.Tasks.Extens
+                                                  ions.dll
+-a----         4/17/2026   7:05 PM          20744 System.Threading.Tasks.Parall
+                                                  el.dll
+-a----         4/17/2026   7:05 PM          24328 System.Threading.Thread.dll
+-a----         4/17/2026   7:05 PM          18696 System.Threading.ThreadPool.d
+                                                  ll
+-a----         4/17/2026   7:04 PM          15632 System.Threading.Timer.dll
+-a----         4/17/2026   7:04 PM          17160 System.Transactions.dll
+-a----         4/17/2026   7:05 PM          26376 System.Transactions.Local.dll
+-a----         4/17/2026   7:04 PM          16136 System.ValueTuple.dll
+-a----         4/17/2026   7:04 PM          15632 System.Web.dll
+-a----         4/17/2026   7:05 PM          17672 System.Web.HttpUtility.dll
+-a----         4/17/2026   7:04 PM          16136 System.Windows.dll
+-a----         4/17/2026   7:04 PM          23816 System.Xml.dll
+-a----         4/17/2026   7:05 PM          16136 System.Xml.Linq.dll
+-a----         4/17/2026   7:06 PM         116488 System.Xml.ReaderWriter.dll
+-a----         4/17/2026   7:04 PM          16648 System.Xml.Serialization.dll
+-a----         4/17/2026   7:04 PM          34568 System.Xml.XDocument.dll
+-a----         4/17/2026   7:05 PM          16136 System.Xml.XmlDocument.dll
+-a----         4/17/2026   7:05 PM          51464 System.Xml.XmlSerializer.dll
+-a----         4/17/2026   7:05 PM          17160 System.Xml.XPath.dll
+-a----         4/17/2026   7:05 PM          16688 System.Xml.XPath.XDocument.dl
+                                                  l
+-a----         4/17/2026   7:12 PM          16648 WindowsBase.dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\ru
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/17/2025   3:20 PM         617744 Microsoft.CodeAnalysis.CSharp
+                                                  .resources.dll
+-a----        11/17/2025   3:20 PM          18192 Microsoft.CodeAnalysis.CSharp
+                                                  .Workspaces.resources.dll
+-a----        11/17/2025   3:14 PM          49464 Microsoft.CodeAnalysis.resour
+                                                  ces.dll
+-a----        11/17/2025   3:25 PM          17680 Microsoft.CodeAnalysis.Worksp
+                                                  aces.MSBuild.resources.dll
+-a----        11/17/2025   3:18 PM          47888 Microsoft.CodeAnalysis.Worksp
+                                                  aces.resources.dll
+-a----         4/24/2026   4:39 AM         348568 Microsoft.Data.SqlClient.reso
+                                                  urces.dll
+-a----          6/2/2025   5:00 AM          17440 Microsoft.TestPlatform.Commun
+                                                  icationUtilities.resources.dl
+                                                  l
+-a----          6/2/2025   5:00 AM          17464 Microsoft.TestPlatform.CoreUt
+                                                  ilities.resources.dll
+-a----          6/2/2025   5:00 AM          23072 Microsoft.TestPlatform.CrossP
+                                                  latEngine.resources.dll
+-a----          6/2/2025   5:00 AM          23096 Microsoft.VisualStudio.TestPl
+                                                  atform.Common.resources.dll
+-a----          6/2/2025   5:00 AM          26168 Microsoft.VisualStudio.TestPl
+                                                  atform.ObjectModel.resources.
+                                                  dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\runtimes
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          5/5/2026  10:44 AM                unix
+d-----          5/5/2026  10:44 AM                win
+d-----          5/5/2026  10:44 AM                win-arm64
+d-----          5/5/2026  10:44 AM                win-x64
+d-----          5/5/2026  10:44 AM                win-x86
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\runtimes\unix
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          5/5/2026  10:44 AM                lib
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\runtimes\unix\lib
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          5/5/2026  10:44 AM                net9.0
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\runtimes\unix\lib\net9.0
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         4/24/2026   4:33 AM        1799616 Microsoft.Data.SqlClient.dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\runtimes\win
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          5/5/2026  10:44 AM                lib
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\runtimes\win\lib
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          5/5/2026  10:44 AM                net9.0
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\runtimes\win\lib\net9.0
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         4/24/2026   4:32 AM        1849752 Microsoft.Data.SqlClient.dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\runtimes\win-arm64
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          5/5/2026  10:44 AM                native
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\runtimes\win-arm64\native
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/15/2025   4:23 PM         551976 Microsoft.Data.SqlClient.SNI.
+                                                  dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\runtimes\win-x64
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          5/5/2026  10:44 AM                native
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\runtimes\win-x64\native
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/15/2025   4:23 PM         566832 Microsoft.Data.SqlClient.SNI.
+                                                  dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\runtimes\win-x86
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          5/5/2026  10:44 AM                native
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\runtimes\win-x86\native
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         1/15/2025   4:23 PM         477736 Microsoft.Data.SqlClient.SNI.
+                                                  dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\tr
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/17/2025   3:20 PM         452360 Microsoft.CodeAnalysis.CSharp
+                                                  .resources.dll
+-a----        11/17/2025   3:20 PM          17680 Microsoft.CodeAnalysis.CSharp
+                                                  .Workspaces.resources.dll
+-a----        11/17/2025   3:14 PM          40240 Microsoft.CodeAnalysis.resour
+                                                  ces.dll
+-a----        11/17/2025   3:25 PM          17720 Microsoft.CodeAnalysis.Worksp
+                                                  aces.MSBuild.resources.dll
+-a----        11/17/2025   3:18 PM          41784 Microsoft.CodeAnalysis.Worksp
+                                                  aces.resources.dll
+-a----         4/24/2026   4:39 AM         253336 Microsoft.Data.SqlClient.reso
+                                                  urces.dll
+-a----          6/2/2025   5:00 AM          16952 Microsoft.TestPlatform.Commun
+                                                  icationUtilities.resources.dl
+                                                  l
+-a----          6/2/2025   5:00 AM          16928 Microsoft.TestPlatform.CoreUt
+                                                  ilities.resources.dll
+-a----          6/2/2025   5:00 AM          21024 Microsoft.TestPlatform.CrossP
+                                                  latEngine.resources.dll
+-a----          6/2/2025   5:00 AM          20536 Microsoft.VisualStudio.TestPl
+                                                  atform.Common.resources.dll
+-a----          6/2/2025   5:00 AM          23608 Microsoft.VisualStudio.TestPl
+                                                  atform.ObjectModel.resources.
+                                                  dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\zh-Hans
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/17/2025   3:20 PM         405776 Microsoft.CodeAnalysis.CSharp
+                                                  .resources.dll
+-a----        11/17/2025   3:20 PM          17680 Microsoft.CodeAnalysis.CSharp
+                                                  .Workspaces.resources.dll
+-a----        11/17/2025   3:14 PM          37640 Microsoft.CodeAnalysis.resour
+                                                  ces.dll
+-a----        11/17/2025   3:25 PM          17672 Microsoft.CodeAnalysis.Worksp
+                                                  aces.MSBuild.resources.dll
+-a----        11/17/2025   3:18 PM          40200 Microsoft.CodeAnalysis.Worksp
+                                                  aces.resources.dll
+-a----         4/24/2026   4:39 AM         228248 Microsoft.Data.SqlClient.reso
+                                                  urces.dll
+-a----          6/2/2025   5:00 AM          16416 Microsoft.TestPlatform.Commun
+                                                  icationUtilities.resources.dl
+                                                  l
+-a----          6/2/2025   5:00 AM          16928 Microsoft.TestPlatform.CoreUt
+                                                  ilities.resources.dll
+-a----          6/2/2025   5:00 AM          20008 Microsoft.TestPlatform.CrossP
+                                                  latEngine.resources.dll
+-a----          6/2/2025   5:00 AM          20040 Microsoft.VisualStudio.TestPl
+                                                  atform.Common.resources.dll
+-a----          6/2/2025   5:00 AM          23072 Microsoft.VisualStudio.TestPl
+                                                  atform.ObjectModel.resources.
+                                                  dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\bin\Debug\net10.0\zh-Hant
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        11/17/2025   3:20 PM         405304 Microsoft.CodeAnalysis.CSharp
+                                                  .resources.dll
+-a----        11/17/2025   3:20 PM          17720 Microsoft.CodeAnalysis.CSharp
+                                                  .Workspaces.resources.dll
+-a----        11/17/2025   3:14 PM          38152 Microsoft.CodeAnalysis.resour
+                                                  ces.dll
+-a----        11/17/2025   3:25 PM          17672 Microsoft.CodeAnalysis.Worksp
+                                                  aces.MSBuild.resources.dll
+-a----        11/17/2025   3:18 PM          40248 Microsoft.CodeAnalysis.Worksp
+                                                  aces.resources.dll
+-a----         4/24/2026   4:39 AM         231824 Microsoft.Data.SqlClient.reso
+                                                  urces.dll
+-a----          6/2/2025   5:00 AM          16416 Microsoft.TestPlatform.Commun
+                                                  icationUtilities.resources.dl
+                                                  l
+-a----          6/2/2025   5:00 AM          16952 Microsoft.TestPlatform.CoreUt
+                                                  ilities.resources.dll
+-a----          6/2/2025   5:00 AM          20552 Microsoft.TestPlatform.CrossP
+                                                  latEngine.resources.dll
+-a----          6/2/2025   5:00 AM          20024 Microsoft.VisualStudio.TestPl
+                                                  atform.Common.resources.dll
+-a----          6/2/2025   5:00 AM          23096 Microsoft.VisualStudio.TestPl
+                                                  atform.ObjectModel.resources.
+                                                  dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\obj
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          5/5/2026   9:51 AM                Debug
+-a----          5/5/2026   2:52 PM         339732 project.assets.json
+-a----          5/5/2026   2:52 PM          14112 project.nuget.cache
+-a----          5/5/2026   2:52 PM          18241 project.packagespec.json
+-a----          5/5/2026   2:50 PM             20 rider.project.model.nuget.inf
+                                                  o
+-a----          5/5/2026   2:52 PM             20 rider.project.restore.info
+-a----          5/5/2026   2:52 PM         127010 RogueNet.IntegrationTests.csp
+                                                  roj.nuget.dgspec.json
+-a----          5/5/2026   9:50 AM           3737 RogueNet.IntegrationTests.csp
+                                                  roj.nuget.g.props
+-a----          5/5/2026  10:38 AM           3521 RogueNet.IntegrationTests.csp
+                                                  roj.nuget.g.targets
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\obj\Debug
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          5/5/2026   3:21 PM                net10.0
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\obj\Debug\net10.0
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          5/5/2026  10:44 AM                ref
+d-----          5/5/2026  10:44 AM                refint
+-a----          5/5/2026   9:51 AM            200 .NETCoreApp,Version=v10.0.Ass
+                                                  emblyAttributes.cs
+-a----          5/5/2026   3:21 PM            655 MvcTestingAppManifest.json
+-a----          5/5/2026   3:21 PM              0 RogueNet.45EA6305.Up2Date
+-a----          5/5/2026   2:52 PM           1049 RogueNet.IntegrationTests.Ass
+                                                  emblyInfo.cs
+-a----          5/5/2026   2:52 PM             66 RogueNet.IntegrationTests.Ass
+                                                  emblyInfoInputs.cache
+-a----          5/5/2026   2:52 PM         113773 RogueNet.IntegrationTests.ass
+                                                  ets.cache
+-a----          5/5/2026   3:21 PM          38162 RogueNet.IntegrationTests.csp
+                                                  roj.AssemblyReference.cache
+-a----          5/5/2026  11:17 AM             66 RogueNet.IntegrationTests.csp
+                                                  roj.CoreCompileInputs.cache
+-a----          5/5/2026  11:17 AM          82321 RogueNet.IntegrationTests.csp
+                                                  roj.FileListAbsolute.txt
+-a----          5/5/2026   3:21 PM          38912 RogueNet.IntegrationTests.dll
+-a----          5/5/2026   9:51 AM           1204 RogueNet.IntegrationTests.Gen
+                                                  eratedMSBuildEditorConfig.edi
+                                                  torconfig
+-a----          5/5/2026  10:44 AM             66 RogueNet.IntegrationTests.gen
+                                                  runtimeconfig.cache
+-a----          5/5/2026   9:51 AM            260 RogueNet.IntegrationTests.Glo
+                                                  balUsings.g.cs
+-a----          5/5/2026   3:21 PM          39024 RogueNet.IntegrationTests.pdb
+-a----          5/5/2026   2:54 PM            187 RogueNet.IntegrationTests.sou
+                                                  rcelink.json
+-a----          5/5/2026   3:21 PM           2983 RogueNet.IntegrationTests.xml
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\obj\Debug\net10.0\ref
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          5/5/2026   2:54 PM          16384 RogueNet.IntegrationTests.dll
+    Directory: C:\Users\bijan\RiderProjects\roguenet-live-services\tests\RogueN
+    et.IntegrationTests\obj\Debug\net10.0\refint
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          5/5/2026   3:21 PM          16384 RogueNet.IntegrationTests.dll
