@@ -30,8 +30,8 @@ public class ApplicationDbContext : DbContext
             entity.HasKey(p => p.Id);
             entity.HasIndex(p => p.Username).IsUnique();
             entity.Property(p => p.Username).HasMaxLength(50).IsRequired();
-            entity.Property(p => p.CreatedAt).HasDefaultValueSql("GETUTCDATE()");
-            entity.Property(p => p.UpdatedAt).HasDefaultValueSql("GETUTCDATE()");
+            entity.Property(p => p.CreatedAt);
+            entity.Property(p => p.UpdatedAt);
         });
 
         // PlayerProfile configuration
@@ -41,7 +41,7 @@ public class ApplicationDbContext : DbContext
             entity.HasIndex(p => p.PlayerId).IsUnique();
             entity.Property(p => p.CashBalance).HasPrecision(18, 2);
             entity.Property(p => p.Version).IsConcurrencyToken();
-            entity.Property(p => p.UpdatedAt).HasDefaultValueSql("GETUTCDATE()");
+            entity.Property(p => p.UpdatedAt);
 
             entity.HasOne(p => p.Player)
                 .WithOne(p => p.Profile)
@@ -55,8 +55,8 @@ public class ApplicationDbContext : DbContext
             entity.HasKey(i => i.Id);
             entity.HasIndex(i => new { i.PlayerId, i.ItemId }).IsUnique();
             entity.Property(i => i.ItemId).HasMaxLength(100).IsRequired();
-            entity.Property(i => i.AcquiredAt).HasDefaultValueSql("GETUTCDATE()");
-            entity.Property(i => i.UpdatedAt).HasDefaultValueSql("GETUTCDATE()");
+            entity.Property(i => i.AcquiredAt);
+            entity.Property(i => i.UpdatedAt);
 
             entity.HasOne(i => i.Player)
                 .WithMany()
@@ -75,7 +75,7 @@ public class ApplicationDbContext : DbContext
             entity.Property(t => t.TransactionType).HasMaxLength(50).IsRequired();
             entity.Property(t => t.SourceId).HasMaxLength(100);
             entity.Property(t => t.Reason).HasMaxLength(500);
-            entity.Property(t => t.CreatedAt).HasDefaultValueSql("GETUTCDATE()");
+            entity.Property(t => t.CreatedAt);
 
             entity.HasOne(t => t.Player)
                 .WithMany()
@@ -92,7 +92,7 @@ public class ApplicationDbContext : DbContext
             entity.Property(m => m.MissionId).HasMaxLength(100).IsRequired();
             entity.Property(m => m.Difficulty).HasMaxLength(50).IsRequired();
             entity.Property(m => m.CashGranted).HasPrecision(18, 2);
-            entity.Property(m => m.CompletedAt).HasDefaultValueSql("GETUTCDATE()");
+            entity.Property(m => m.CompletedAt);
 
             entity.HasOne(m => m.Player)
                 .WithMany()
@@ -107,7 +107,7 @@ public class ApplicationDbContext : DbContext
             entity.HasIndex(k => new { k.PlayerId, k.Key }).IsUnique();
             entity.Property(k => k.Key).HasMaxLength(100).IsRequired();
             entity.Property(k => k.RequestHash).HasMaxLength(64).IsRequired();
-            entity.Property(k => k.CreatedAt).HasDefaultValueSql("GETUTCDATE()");
+            entity.Property(k => k.CreatedAt);
 
             entity.HasOne(k => k.Player)
                 .WithMany()
@@ -125,7 +125,7 @@ public class ApplicationDbContext : DbContext
             entity.Property(e => e.Topic).HasMaxLength(100).IsRequired();
             entity.Property(e => e.Status).HasMaxLength(50).IsRequired();
             entity.Property(e => e.LastError).HasMaxLength(2000);
-            entity.Property(e => e.CreatedAt).HasDefaultValueSql("GETUTCDATE()");
+            entity.Property(e => e.CreatedAt);
         });
 
         // CloudSaveSlot configuration
@@ -134,8 +134,8 @@ public class ApplicationDbContext : DbContext
             entity.HasKey(s => s.Id);
             entity.HasIndex(s => new { s.PlayerId, s.SlotNumber }).IsUnique();
             entity.Property(s => s.Version).IsConcurrencyToken();
-            entity.Property(s => s.CreatedAt).HasDefaultValueSql("GETUTCDATE()");
-            entity.Property(s => s.UpdatedAt).HasDefaultValueSql("GETUTCDATE()");
+            entity.Property(s => s.CreatedAt);
+            entity.Property(s => s.UpdatedAt);
 
             entity.HasOne(s => s.Player)
                 .WithMany()
@@ -150,7 +150,7 @@ public class ApplicationDbContext : DbContext
             entity.HasIndex(l => new { l.LeaderboardId, l.PlayerId }).IsUnique();
             entity.HasIndex(l => new { l.LeaderboardId, l.Rank });
             entity.Property(l => l.LeaderboardId).HasMaxLength(100).IsRequired();
-            entity.Property(l => l.UpdatedAt).HasDefaultValueSql("GETUTCDATE()");
+            entity.Property(l => l.UpdatedAt);
 
             entity.HasOne(l => l.Player)
                 .WithMany()
