@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\RogueNet.Domain\RogueNet.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

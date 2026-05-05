@@ -7,6 +7,9 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <AnalysisLevel>latest-recommended</AnalysisLevel>
-    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <!-- Required for IDE0005 (unused usings) to run on build. -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <!-- Suppress missing-XML-doc warnings (we don't author XML docs). -->
+    <NoWarn>$(NoWarn);CS1591;CS1573;CS1572;CS1574</NoWarn>
   </PropertyGroup>
 </Project>

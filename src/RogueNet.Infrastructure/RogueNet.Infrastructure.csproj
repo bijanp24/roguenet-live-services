@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" />
+    <PackageReference Include="Microsoft.Data.SqlClient" />
+    <PackageReference Include="Dapper" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RogueNet.Domain\RogueNet.Domain.csproj" />
+    <ProjectReference Include="..\RogueNet.Application\RogueNet.Application.csproj" />
+  </ItemGroup>
+
+</Project>
