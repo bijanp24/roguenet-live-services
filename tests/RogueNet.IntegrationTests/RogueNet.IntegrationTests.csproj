@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <IsPackable>false</IsPackable>
+    <!-- Suppress CA1707 for test method names with underscores -->
+    <NoWarn>$(NoWarn);CA1707</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,6 +13,7 @@
     <PackageReference Include="xunit.runner.visualstudio" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" />
     <PackageReference Include="FluentAssertions" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" />
   </ItemGroup>
 
   <ItemGroup>

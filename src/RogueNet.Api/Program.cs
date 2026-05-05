@@ -93,3 +93,6 @@ app.MapGet("/players/{playerId:guid}/profile", async (Guid playerId, Application
 .WithName("GetPlayerProfile");
 
 app.Run();
+
+// Make Program accessible for integration tests
+public partial class Program { }
