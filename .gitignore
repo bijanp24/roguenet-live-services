@@ -1,0 +1,80 @@
+## .NET / Visual Studio / Rider
+
+bin/
+obj/
+out/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+.idea/
+*.iml
+
+## Build outputs
+[Dd]ebug/
+[Rr]elease/
+[Xx]64/
+[Xx]86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+TestResult.xml
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+
+## Rider / JetBrains
+*.iml
+.idea/
+*.sln.iml
+
+## VS Code
+.vscode/
+*.code-workspace
+
+## NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+## EF Core
+*.mdf
+*.ldf
+*.ndf
+
+## OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Environment / secrets
+.env
+.env.local
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+## Logs
+*.log
+
+## Load test outputs
+load-tests/results/
+
+## Misc
+*.bak
+*.swp
+*~

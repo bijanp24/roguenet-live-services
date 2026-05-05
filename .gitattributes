@@ -1,0 +1,35 @@
+# Default — let git decide line endings per platform; normalize to LF in the repo.
+* text=auto eol=lf
+
+# Windows-only scripts: keep CRLF in working tree.
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Source files: explicit LF.
+*.cs       text eol=lf diff=csharp
+*.csproj   text eol=lf
+*.sln      text eol=lf
+*.props    text eol=lf
+*.targets  text eol=lf
+*.json     text eol=lf
+*.yml      text eol=lf
+*.yaml     text eol=lf
+*.md       text eol=lf
+*.editorconfig text eol=lf
+
+# Binary files — never normalize.
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.pdf  binary
+*.zip  binary
+*.7z   binary
+*.dll  binary
+*.exe  binary
+*.pdb  binary
+*.snk  binary
+*.mdf  binary
+*.ldf  binary
