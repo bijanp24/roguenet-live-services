@@ -1,5 +1,7 @@
 # RogueNet Live Services
 
+[![CI](https://github.com/bijanp24/roguenet-live-services/actions/workflows/ci.yml/badge.svg)](https://github.com/bijanp24/roguenet-live-services/actions/workflows/ci.yml)
+
 A .NET 8 always-online game services platform demonstrating idempotent rewards, inventory ledgers, cloud saves, leaderboards, and live-ops tooling.
 
 ## What This Project Is
