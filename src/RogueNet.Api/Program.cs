@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using RogueNet.Api.Contracts;
 using RogueNet.Domain.Entities;
 using RogueNet.Infrastructure.Data;
+using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,6 +36,7 @@ app.Use(async (context, next) =>
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.MapScalarApiReference();
 }
 
 app.UseHttpsRedirection();
