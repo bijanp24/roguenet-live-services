@@ -25,7 +25,7 @@
 - Affirmation: "My well-being is the foundation of my work. Today, I prioritize my peace so I can perform with clarity and purpose."
 - Stress scale (1-10): What's your internal noise level today?
 - Capacity check: Do you have bandwidth for high-intensity collaboration, or do you need a low-stimulus focus block?
-- Weed check: Is there a small frustration from yesterday still lingering that you can pull now?
+- Friction check ("weed check"): Is there a small frustration from yesterday still lingering that you can pull now?
 
 ## Energy + mental load check
 
