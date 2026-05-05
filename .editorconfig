@@ -26,6 +26,10 @@ csharp_style_expression_bodied_properties = true:suggestion
 csharp_new_line_before_open_brace = all
 csharp_prefer_braces = true:warning
 
+# Suppress CA1861 in EF Core Migrations (auto-generated code)
+[**/Migrations/*.cs]
+dotnet_diagnostic.CA1861.severity = none
+
 [*.{json,yml,yaml,csproj,props,targets,sln}]
 indent_size = 2
 
