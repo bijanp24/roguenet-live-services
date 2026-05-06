@@ -2,6 +2,8 @@
 
 [![CI](https://github.com/bijanp24/roguenet-live-services/actions/workflows/ci.yml/badge.svg)](https://github.com/bijanp24/roguenet-live-services/actions/workflows/ci.yml)
 
+Principal-level .NET game backend portfolio demonstrating idempotent rewards, append-only inventory ledgers, optimistic concurrency, and outbox-driven event delivery for always-online reliability.
+
 A .NET 8 always-online game services platform demonstrating idempotent rewards, inventory ledgers, cloud saves, leaderboards, and live-ops tooling.
 
 ## What This Project Is
