@@ -1,5 +1,6 @@
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 
 using RogueNet.Infrastructure.Data;
 
@@ -41,8 +42,12 @@ public sealed class IntegrationTestFixture : IAsyncLifetime
             InitialCatalog = _databaseName,
         }.ConnectionString;
 
+        // Suppress EF Core 10's PendingModelChangesWarning: the model has minor drift from the
+        // committed InitialCreate migration. Tracked separately; for integration tests we want
+        // MigrateAsync to apply the existing migration rather than fail-closed on drift.
         var options = new DbContextOptionsBuilder<ApplicationDbContext>()
             .UseSqlServer(ConnectionString)
+            .ConfigureWarnings(w => w.Ignore(RelationalEventId.PendingModelChangesWarning))
             .Options;
 
         await using var dbContext = new ApplicationDbContext(options);
