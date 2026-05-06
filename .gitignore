@@ -43,6 +43,9 @@ coverage*.info
 .vscode/
 *.code-workspace
 
+## Claude Code local session state
+.claude/
+
 ## NuGet
 *.nupkg
 *.snupkg
