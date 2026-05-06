@@ -20,7 +20,7 @@ The first section covers the mission completion flow in depth because it is the 
 
 **Detection:** The request includes a client-generated `completionId`. The server records it in the `IdempotencyKeys` table along with a hash of the request body and the response payload.
 
-**Mitigation:** On receipt, the server looks up the `completionId`. If found and the request body hash matches, it returns the stored response without executing the operation. If found but the body hash differs, it returns 409 Conflict (same key, different intent).
+**Mitigation:** On receipt, the server looks up the `completionId` *before opening a transaction*. If found and the request body hash matches, it returns the stored response without acquiring write locks. If found but the body hash differs, it returns 409 Conflict (same key, different intent). If not found, the server enters the write transaction; the idempotency-key INSERT inside the transaction is constrained to fail with a unique-violation if a concurrent first-time request raced past the same fast path, in which case the loser rolls back and re-reads the winner's stored response.
 
 **Recovery:** No recovery needed for duplicates — they are handled inline. If a 409 fires from a hash mismatch, the client must inspect its own state and either retry with a fresh `completionId` or treat the prior response as authoritative.
 
@@ -44,7 +44,7 @@ The first section covers the mission completion flow in depth because it is the 
 
 **Detection:** N/A — by design.
 
-**Mitigation:** All ledger inserts and the idempotency record are in the same transaction. If any insert fails, the transaction rolls back and nothing is granted.
+**Mitigation:** All writes — the mission-completion row, the inventory ledger inserts, the player-profile update, the outbox event, and the idempotency record — are in a single transaction. If any one of them fails, the transaction rolls back and nothing is granted, no event is emitted, no idempotency record is written.
 
 **Recovery:** N/A.
 
@@ -90,7 +90,7 @@ The first section covers the mission completion flow in depth because it is the 
 
 **What can go wrong:** A client reuses a `completionId` for a different mission, score, or difficulty. This is a client bug, not a normal flow.
 
-**Detection:** The server compares the request body hash against the stored hash in `IdempotencyKeys`. A mismatch is detected.
+**Detection:** The server compares the request body hash against the stored hash in `IdempotencyKeys`. A mismatch is detected. The hash is computed over a canonical form of the body: difficulty is lowercased before hashing, so `Hard` and `hard` produce the same hash and replay normally rather than triggering a false 409.
 
 **Mitigation:** Return 409 Conflict with a Problem Details payload identifying the mismatch.
 
@@ -100,15 +100,15 @@ The first section covers the mission completion flow in depth because it is the 
 
 ### 8. Optimistic concurrency conflict on player profile
 
-**What can go wrong:** Two operations attempt to update the same player profile concurrently. For example, a mission completion and a separate XP grant from another source.
+**What can go wrong:** Two operations attempt to update the same player profile concurrently — for example, a mission completion racing against a separate XP grant from another source.
 
-**Detection:** The `Version` column on `PlayerProfiles` does not match the expected version. The UPDATE affects zero rows.
+**Detection:** The `Version` column on `PlayerProfiles` does not match the expected version. The OCC `UPDATE` affects zero rows.
 
-**Mitigation:** The transaction is rolled back. The API returns 409 Conflict.
+**Mitigation:** The repository's transaction rolls back and immediately retries with a fresh profile read, up to three times. Each retry recomputes the new XP and cash from the latest committed state, so the reward is always applied to current values, not stale ones. The application service and the API layer never see OCC conflicts under normal contention — the retry loop is internal to the repository.
 
-**Recovery:** The client (or the server, if this is a server-internal retry) re-reads the profile, recomputes the operation against the new state, and retries with the new version.
+**Recovery:** Under sustained contention on a single profile (three back-to-back conflicts), the repository throws. The request currently surfaces as 500 to the client; a planned improvement is to map this to 503 with a `Retry-After` header so well-behaved clients back off rather than tight-loop. In practice this exhaustion path is rare: the common "rapid retry" case is handled upstream by the idempotency check, which short-circuits before reaching the OCC `UPDATE`.
 
-**Player-visible behavior:** A transient UI hiccup at most. Under normal load this is rare; under contention (a player tapping a button rapidly), the second tap returns a no-op via idempotency before reaching the optimistic concurrency check.
+**Player-visible behavior:** Under normal load, OCC conflicts are invisible — the retry succeeds and the player sees the reward. Under sustained contention, the player sees a transient error; retrying with the same `completionId` either replays a prior commit or eventually wins a retry round.
 
 ---
 
