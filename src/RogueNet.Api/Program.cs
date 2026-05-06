@@ -1,7 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using RogueNet.Api.Contracts;
+using RogueNet.Application.MissionCompletions;
 using RogueNet.Domain.Entities;
 using RogueNet.Infrastructure.Data;
+using RogueNet.Infrastructure.Repositories;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +18,22 @@ if (!builder.Services.Any(x => x.ServiceType == typeof(DbContextOptions<Applicat
         options.UseSqlServer(
             builder.Configuration.GetConnectionString("DefaultConnection"),
             sqlOptions => sqlOptions.EnableRetryOnFailure()));
+}
+
+// Mission completion: Dapper repo + Application service. Guarded so integration tests can swap them.
+if (builder.Services.All(x => x.ServiceType != typeof(IMissionCompletionRepository)))
+{
+    builder.Services.AddSingleton<IMissionCompletionRepository>(_ =>
+    {
+        var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+            ?? throw new InvalidOperationException("DefaultConnection is not configured");
+        return new MissionCompletionRepository(connectionString);
+    });
+}
+
+if (builder.Services.All(x => x.ServiceType != typeof(IMissionCompletionService)))
+{
+    builder.Services.AddScoped<IMissionCompletionService, MissionCompletionService>();
 }
 
 var app = builder.Build();
@@ -109,6 +127,69 @@ app.MapGet("/players/{playerId:guid}/profile", async (Guid playerId, Application
         player.Profile.UpdatedAt));
 })
 .WithName("GetPlayerProfile");
+
+app.MapPost("/players/{playerId:guid}/mission-completions", async (
+    Guid playerId,
+    MissionCompletionRequest request,
+    IMissionCompletionService service,
+    CancellationToken cancellationToken) =>
+{
+    if (request is null)
+    {
+        return Results.BadRequest(new { Error = "Request body is required" });
+    }
+
+    if (request.CompletionId == Guid.Empty)
+    {
+        return Results.BadRequest(new { Error = "completionId is required" });
+    }
+
+    if (string.IsNullOrWhiteSpace(request.MissionId))
+    {
+        return Results.BadRequest(new { Error = "missionId is required" });
+    }
+
+    if (string.IsNullOrWhiteSpace(request.Difficulty))
+    {
+        return Results.BadRequest(new { Error = "difficulty is required" });
+    }
+
+    if (request.Score < 0)
+    {
+        return Results.BadRequest(new { Error = "score must be non-negative" });
+    }
+
+    if (request.DurationSeconds < 0)
+    {
+        return Results.BadRequest(new { Error = "durationSeconds must be non-negative" });
+    }
+
+    var command = new CompleteMissionCommand(
+        playerId,
+        request.CompletionId,
+        request.MissionId,
+        request.Score,
+        request.DurationSeconds,
+        request.Difficulty);
+
+    var outcome = await service.ExecuteAsync(command, cancellationToken);
+
+    return outcome switch
+    {
+        CompleteMissionOutcome.Success success when !success.WasReplay =>
+            Results.Created(
+                $"/players/{playerId}/mission-completions/{success.Result.CompletionId}",
+                MissionCompletionResponse.FromResult(success.Result)),
+        CompleteMissionOutcome.Success success =>
+            Results.Ok(MissionCompletionResponse.FromResult(success.Result)),
+        CompleteMissionOutcome.PlayerNotFound =>
+            Results.NotFound(new { Error = "Player not found" }),
+        CompleteMissionOutcome.IdempotencyConflict =>
+            Results.Conflict(new { Error = "completionId was reused with a different request body" }),
+        _ => Results.Problem("Unexpected mission completion outcome"),
+    };
+})
+.WithName("CompleteMission");
 
 app.Run();
 
