@@ -1,67 +1,36 @@
 using System.Net;
 using System.Net.Http.Json;
+
 using FluentAssertions;
-using Microsoft.AspNetCore.Mvc.Testing;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
+
 using RogueNet.Api.Contracts;
-using RogueNet.Infrastructure.Data;
+using RogueNet.IntegrationTests.Fixtures;
 
 namespace RogueNet.IntegrationTests;
 
-public class PlayerEndpointsTests : IClassFixture<WebApplicationFactory<Program>>
+public class PlayerEndpointsTests : IClassFixture<IntegrationTestFixture>
 {
-    private readonly WebApplicationFactory<Program> _factory;
+    private readonly IntegrationTestFixture _fixture;
 
-    public PlayerEndpointsTests(WebApplicationFactory<Program> factory)
+    public PlayerEndpointsTests(IntegrationTestFixture fixture)
     {
-        _factory = factory.WithWebHostBuilder(builder =>
-        {
-            builder.ConfigureServices(services =>
-            {
-                // Remove the existing DbContext registration
-                var dbContextDescriptor = services.SingleOrDefault(
-                    d => d.ServiceType == typeof(DbContextOptions<ApplicationDbContext>));
-                if (dbContextDescriptor != null)
-                {
-                    services.Remove(dbContextDescriptor);
-                }
-
-                // Remove DbContextOptions
-                var dbContextOptionsDescriptor = services.Where(
-                    d => d.ServiceType.IsGenericType &&
-                         d.ServiceType.GetGenericTypeDefinition() == typeof(DbContextOptions<>))
-                    .ToList();
-                foreach (var descriptor in dbContextOptionsDescriptor)
-                {
-                    services.Remove(descriptor);
-                }
-
-                // Add in-memory database for testing
-                services.AddDbContext<ApplicationDbContext>(options =>
-                {
-                    options.UseInMemoryDatabase("TestDb_" + Guid.NewGuid());
-                });
-            });
-        });
+        _fixture = fixture;
     }
 
     [Fact]
     public async Task CreatePlayer_WithValidUsername_ReturnsCreatedPlayer()
     {
-        // Arrange
-        var client = _factory.CreateClient();
-        var request = new CreatePlayerRequest("TestPlayer123");
+        var client = _fixture.Factory.CreateClient();
+        var username = $"TestPlayer_{Guid.NewGuid():N}";
+        var request = new CreatePlayerRequest(username);
 
-        // Act
         var response = await client.PostAsJsonAsync("/players", request);
 
-        // Assert
         response.StatusCode.Should().Be(HttpStatusCode.Created);
 
         var player = await response.Content.ReadFromJsonAsync<PlayerResponse>();
         player.Should().NotBeNull();
-        player!.Username.Should().Be("TestPlayer123");
+        player!.Username.Should().Be(username);
         player.Id.Should().NotBe(Guid.Empty);
         player.CreatedAt.Should().BeCloseTo(DateTime.UtcNow, TimeSpan.FromSeconds(5));
 
@@ -72,54 +41,42 @@ public class PlayerEndpointsTests : IClassFixture<WebApplicationFactory<Program>
     [Fact]
     public async Task CreatePlayer_WithDuplicateUsername_ReturnsConflict()
     {
-        // Arrange
-        var client = _factory.CreateClient();
-        var request = new CreatePlayerRequest("DuplicateUser");
+        var client = _fixture.Factory.CreateClient();
+        var username = $"DuplicateUser_{Guid.NewGuid():N}";
+        var request = new CreatePlayerRequest(username);
 
-        // Act - Create first player
         await client.PostAsJsonAsync("/players", request);
-
-        // Act - Try to create duplicate
         var response = await client.PostAsJsonAsync("/players", request);
 
-        // Assert
         response.StatusCode.Should().Be(HttpStatusCode.Conflict);
     }
 
     [Fact]
     public async Task CreatePlayer_WithEmptyUsername_ReturnsBadRequest()
     {
-        // Arrange
-        var client = _factory.CreateClient();
-        var request = new CreatePlayerRequest("");
+        var client = _fixture.Factory.CreateClient();
+        var request = new CreatePlayerRequest(string.Empty);
 
-        // Act
         var response = await client.PostAsJsonAsync("/players", request);
 
-        // Assert
         response.StatusCode.Should().Be(HttpStatusCode.BadRequest);
     }
 
     [Fact]
     public async Task GetPlayerProfile_WithExistingPlayer_ReturnsProfile()
     {
-        // Arrange
-        var client = _factory.CreateClient();
-        var createRequest = new CreatePlayerRequest("ProfileTestUser");
-
-        // Create player first
-        var createResponse = await client.PostAsJsonAsync("/players", createRequest);
+        var client = _fixture.Factory.CreateClient();
+        var username = $"ProfileTestUser_{Guid.NewGuid():N}";
+        var createResponse = await client.PostAsJsonAsync("/players", new CreatePlayerRequest(username));
         var createdPlayer = await createResponse.Content.ReadFromJsonAsync<PlayerResponse>();
 
-        // Act
         var response = await client.GetAsync($"/players/{createdPlayer!.Id}/profile");
 
-        // Assert
         response.StatusCode.Should().Be(HttpStatusCode.OK);
 
         var profile = await response.Content.ReadFromJsonAsync<PlayerProfileResponse>();
         profile.Should().NotBeNull();
-        profile!.Username.Should().Be("ProfileTestUser");
+        profile!.Username.Should().Be(username);
         profile.PlayerId.Should().Be(createdPlayer.Id);
         profile.ExperiencePoints.Should().Be(0);
         profile.Level.Should().Be(1);
@@ -131,33 +88,26 @@ public class PlayerEndpointsTests : IClassFixture<WebApplicationFactory<Program>
     [Fact]
     public async Task GetPlayerProfile_WithNonExistentPlayer_ReturnsNotFound()
     {
-        // Arrange
-        var client = _factory.CreateClient();
+        var client = _fixture.Factory.CreateClient();
         var nonExistentId = Guid.NewGuid();
 
-        // Act
         var response = await client.GetAsync($"/players/{nonExistentId}/profile");
 
-        // Assert
         response.StatusCode.Should().Be(HttpStatusCode.NotFound);
     }
 
     [Fact]
     public async Task CreatePlayer_ThenGetProfile_ReturnsConsistentData()
     {
-        // Arrange
-        var client = _factory.CreateClient();
-        var username = "EndToEndTestUser";
+        var client = _fixture.Factory.CreateClient();
+        var username = $"EndToEndTestUser_{Guid.NewGuid():N}";
 
-        // Act - Create player
         var createResponse = await client.PostAsJsonAsync("/players", new CreatePlayerRequest(username));
         var createdPlayer = await createResponse.Content.ReadFromJsonAsync<PlayerResponse>();
 
-        // Act - Retrieve profile
         var profileResponse = await client.GetAsync($"/players/{createdPlayer!.Id}/profile");
         var profile = await profileResponse.Content.ReadFromJsonAsync<PlayerProfileResponse>();
 
-        // Assert - Data is consistent
         profile!.PlayerId.Should().Be(createdPlayer.Id);
         profile.Username.Should().Be(username);
     }
